@@ -98,7 +98,7 @@ let playersInfo = [
 // This function adds cards the page to display the data in the array
 function showCards(playersToShow = playersInfo) {
     const cardContainer = document.getElementById("card-container");
-    cardContainer.innerHTML = ""; // Clear existing content
+    cardContainer.innerHTML = ""; //clears existing content
 
     playersToShow.forEach(player => {
         const card = document.createElement('div');
@@ -142,7 +142,6 @@ function filterByRating() {
     } else if (selectedRating === "0") {
         filteredPlayers = playersInfo.filter(player => player.rating < 1); // Filter for ratings less than 1
     } else {
-        // For "More than" options, parse the selected value and filter accordingly
         const ratingThreshold = parseFloat(selectedRating);
         filteredPlayers = playersInfo.filter(player => player.rating > ratingThreshold);
     }
@@ -155,7 +154,7 @@ function sortPlayersByRole() {
     let sortedPlayers;
 
     if (selectedRole === "All") {
-        sortedPlayers = playersInfo; // No sorting, just use the original order
+        sortedPlayers = playersInfo;
     } else {
         sortedPlayers = playersInfo.filter(player => player.role === selectedRole);
     }

@@ -52,11 +52,11 @@ html, body {
 .subtitle {
     text-align: center;
     margin: 0 auto;
-    font-size: 1.2em; /* Adjust based on your preference */
-    font-family: 'Futura', sans-serif; /* Matching the font family of the title */
-    color: white; /* Subdued color for the subtitle */
-    font-weight: normal; /* More standard weight compared to the title */
-    padding-bottom: 20px; /* Spacing below the subtitle */
+    font-size: 1.2em; 
+    font-family: 'Futura', sans-serif; 
+    color: white; 
+    font-weight: normal; 
+    padding-bottom: 20px; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -154,8 +154,8 @@ button {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    margin: 0 auto; /* Centers the container on the page */
-    max-width: 960px; /* Adjust this value as per your design */
+    margin: 0 auto; 
+    max-width: 960px; 
     
 }
 
@@ -171,7 +171,7 @@ button {
     border-radius: 5px;
     background-color: #FAF9F6;
     justify-content: center;
-    min-width: 160px; /* Prevents containers from becoming too narrow */
+    min-width: 160px; 
     
 }
 
@@ -193,21 +193,21 @@ select, input[type="text"] {
     .search-container {
         width: 100%;
         justify-content: center;
-        flex-basis: auto; /* Adjust flex-basis for responsive layout */
+        flex-basis: auto; 
     }
 
     .title {
-        font-size: 1.5em; /* Adjust title size for smaller screens */
+        font-size: 1.5em; 
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        flex: 0 1 100%; /* Cards take full width on very small screens */
+        flex: 0 1 100%; 
     }
 
     .controls-container {
-        gap: 10px; /* Adjust gap for tighter spaces */
+        gap: 10px; 
     }
 }
 

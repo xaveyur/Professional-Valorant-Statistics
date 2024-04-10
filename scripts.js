@@ -23,8 +23,8 @@
  * 
  */
 
-
-const zekken_URL = "https://liquipedia.net/commons/images/c/ce/Sentinels_Zekken_at_Masters_Madrid.jpg";
+/*https://liquipedia.net/commons/images/c/ce/Sentinels_Zekken_at_Masters_Madrid.jpg*/
+const zekken_URL = "Images/1600px-Sentinels_Zekken_at_Masters_Madrid.jpg";
 const tenZ_URL = "https://liquipedia.net/commons/images/c/c7/TenZ_at_Masters_Madrid_2024.jpg";
 const johnQT_URL = "https://liquipedia.net/commons/images/b/ba/Sentinels_JohnQT_at_Masters_Madrid.jpg";
 const zellsis_URL = "https://liquipedia.net/commons/images/c/c1/Sentinels_Zellsis_at_Masters_Madrid.jpg";

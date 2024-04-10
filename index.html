@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <title>Professional Valorant Players | Home</title>
+    <meta name="description" content="A Collection of the Top 20 Players at VCT Madrid">
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <h1 class="title1">Top 20 Players at </h1>
+        <p class="title2">VCT Masters Madrid</p>
+        <p class="subtitle">w/ their information & statistics</p>
     </header>
-    <div id="card-container">
-        
-    </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
+    <div class="controls-container">
+        <div class="filter-container">
+            <label for="ratingFilter">Filter by Rating:</label>
+            <select id="ratingFilter" onchange="filterByRating()">
+                <option value="all">All Ratings</option>
+                <option value="0">Less than 1</option>
+                <option value="1">More than 1</option>
+                <option value="1.02">More than 1.02</option>
+                <option value="1.04">More than 1.04</option>
+                <option value="1.06">More than 1.06</option>
+                <option value="1.08">More than 1.08</option>
+                <option value="1.10">More than 1.10</option>
+            </select>
+        </div>
+        <div class="sort-container">
+            <label for="roleSort">Sort by Role:</label>
+            <select id="roleSort" onchange="sortPlayersByRole()">
+                <option value="All">Select Role</option>
+                <option value="Duelist">Duelist</option>
+                <option value="Controller">Controller</option>
+                <option value="IGL">IGL</option>
+                <option value="Flex">Flex</option>
+                <option value="Initiator">Initiator</option>
+            </select>
+        </div>
+        <div class="search-container">
+            <label for="playerSearch">Search Player by Name:</label>
+            <input type="text" id="playerSearch" placeholder="Enter player name..." oninput="searchPlayer()">
         </div>
     </div>
+    <div id="card-container"></div>
     <div class="footer">
         <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
+            CLICK ME!!!
         </button>
     </div>
 </body>
-
 </html>

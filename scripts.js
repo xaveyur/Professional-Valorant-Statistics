@@ -23,30 +23,29 @@
  * 
  */
 
-/*https://liquipedia.net/commons/images/c/ce/Sentinels_Zekken_at_Masters_Madrid.jpg*/
 const zekken_URL = "Images/1600px-Sentinels_Zekken_at_Masters_Madrid.jpg";
-const tenZ_URL = "https://liquipedia.net/commons/images/c/c7/TenZ_at_Masters_Madrid_2024.jpg";
-const johnQT_URL = "https://liquipedia.net/commons/images/b/ba/Sentinels_JohnQT_at_Masters_Madrid.jpg";
-const zellsis_URL = "https://liquipedia.net/commons/images/c/c1/Sentinels_Zellsis_at_Masters_Madrid.jpg";
-const sacy_URL = "https://liquipedia.net/commons/images/1/18/Sentinels_Sacy_at_Masters_Madrid.jpg";
+const tenZ_URL = "Images/tenz.jpg";
+const johnQT_URL = "Images/johnqt.jpeg";
+const zellsis_URL = "Images/zellsis.jpeg";
+const sacy_URL = "Images/sacy.jpeg";
 
-const munchkin_URL = "https://liquipedia.net/commons/images/c/c9/GenG_Munchkin_at_VCT_Pacific_2024_Kickoff.jpg";
-const t3xture_URL = "https://liquipedia.net/commons/images/6/62/GenG_t3xture_at_VCT_Pacific_2024_Kickoff.jpg";
-const meteor_URL = "https://liquipedia.net/commons/images/f/f8/GenG_Meteor_at_VCT_Pacific_2024_Kickoff.jpg";
-const lakia_URL = "https://liquipedia.net/commons/images/8/8f/GenG_Lakia_at_VCT_Pacific_2024_Kickoff.jpg";
-const karon_URL = "https://liquipedia.net/commons/images/3/3e/GenG_Karon_at_VCT_Pacific_2024_Kickoff.jpg";
+const munchkin_URL = "Images/munchkin.jpeg";
+const t3xture_URL = "Images/t3xture.jpeg";
+const meteor_URL = "Images/meteor.jpeg";
+const lakia_URL = "Images/lakia.jpeg";
+const karon_URL = "Images/karon.jpeg";
 
-const something_URL = "https://liquipedia.net/commons/images/b/b2/Paper_Rex_something_at_VCT_Pacific_2024_Kickoff.jpg";
-const mindfreak_URL = "https://liquipedia.net/commons/images/1/1a/PRX_mindfreak_at_VCT_Pacific_2024_Kickoff.jpg";
-const f0rsaken_URL = "https://liquipedia.net/commons/images/9/9e/Paper_Rex_f0rsakeNat_VCT_Pacific_2024_Kickoff.jpg";
-const d4v41_URL = "https://liquipedia.net/commons/images/d/d7/Paper_Rex_d4v41_at_VCT_Pacific_2024_Kickoff.jpg";
-const monyet_URL = "https://liquipedia.net/commons/images/8/82/Paper_Rex_Monyet_at_VCT_Pacific_2024_Kickoff.jpg";
+const something_URL = "Images/something.jpeg";
+const mindfreak_URL = "Images/mindfreak.jpeg";
+const f0rsaken_URL = "Images/f0rsaken.jpeg";
+const d4v41_URL = "Images/d4v41.jpeg";
+const monyet_URL = "Images/monyet.jpeg";
 
-const saadhak_URL = "https://liquipedia.net/commons/images/b/b0/LOUD_Saadhak_at_VCT_2024_Masters_Madrid.jpg";
-const qck_URL = "https://liquipedia.net/commons/images/c/c1/LOUD_qck_at_Masters_Madrid.jpg";
-const less_URL = "https://liquipedia.net/commons/images/6/67/Less_at_the_Masters_Reykjav%C3%ADk_2022.jpg";
-const tuyz_URL = "https://liquipedia.net/commons/images/7/7f/Tuyz_at_the_Valorant_Champions_2023.jpg";
-const cauanzin_URL = "https://liquipedia.net/commons/images/e/e8/Cauanzin_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg";
+const saadhak_URL = "Images/saadhak.jpeg";
+const qck_URL = "Images/qck.jpeg";
+const less_URL = "Images/less.jpeg";
+const tuyz_URL = "Images/tuyz.jpeg";
+const cauanzin_URL = "Images/cauanzin.jpeg";
 
 // Mapping player names to their image URLs
 const playerImages = {
